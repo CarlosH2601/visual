@@ -1,0 +1,47 @@
+<ion-header [translucent]="true">
+
+  <ion-toolbar>
+    <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-img class="img-logo"
+            src="assets/img/logoheader.png"></ion-img>
+         </ion-col>
+      <ion-col> 
+        <ion-title>Visual Skyn</ion-title>
+      </ion-col>
+  </ion-row>
+</ion-grid>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+
+</ion-content>
+
+
+<ion-tabs>
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button [routerLink]="['/foro']">
+      <ion-icon name="megaphone-outline"></ion-icon>
+      Foro
+    </ion-tab-button>
+    <ion-tab-button [routerLink]="['/empresas']">
+      <ion-icon name="people-outline"></ion-icon>
+      Empresas
+    </ion-tab-button>
+    <ion-tab-button [routerLink]="['/para-ti']">
+      <ion-icon name="search"></ion-icon>
+      Para ti
+    </ion-tab-button>
+    <ion-tab-button [routerLink]="['/perfil']">
+      <ion-icon name="person-circle-outline"></ion-icon>
+      Perfil
+    </ion-tab-button>
+    <ion-tab-button [routerLink]="['/crear']">
+      <ion-icon name="construct-outline"></ion-icon>
+      Crear
+    </ion-tab-button>
+  </ion-tab-bar>
+</ion-tabs>

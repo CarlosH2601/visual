@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Poppins:wght@300&family=Tilt+Neon&display=swap');
+
+
+
+ion-content .fondoima{
+    
+    background-image: url(imagen/Visual_Skyn__1_-removebg-preview.png);
+    
+  }
+  
+  section{
+      position: absolute;
+      
+      height:100vh;
+      width: 100%;
+      background-position:top;
+      background-repeat: no-repeat;
+      background-size: 250px;
+      opacity: 0.4;
+    
+  }
+  
+  ion-content .titulo{
+ 
+    padding-top: 160px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 26px;
+    font-family: 'Amaranth', sans-serif;
+ }
+
+ion-content{
+    
+    --background: #DC661F;
+    --color: #F6F6E9;
+    font-family: 'Amaranth', sans-serif;
+   
+}
+
+ion-content  ion-card{
+    
+    --background: #964919b6;
+    border-radius: 40px;
+    
+     
+}
+
+ion-content ion-input{
+    font-family: 'Amaranth', sans-serif;
+    --color: #f6f6e992;
+    font-size: 17px;
+    text-align: center;
+    
+    
+   
+}
+
+ion-content ion-card{
+    height: 56px;
+    
+}
+
+ion-content  ion-button{
+    text-align: center;
+    font-family: 'Amaranth', sans-serif;
+    padding: 16px;
+    --background:  #1D7151;
+    
+ }
+
+ .iniciarsesion {
+    text-align: center;
+    font-family: 'Amaranth', sans-serif;
+ }

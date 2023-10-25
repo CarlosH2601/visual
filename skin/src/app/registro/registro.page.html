@@ -1,0 +1,67 @@
+
+
+<ion-content [fullscreen]="true">
+  <div class="titulo">
+    <ion-label>Registro</ion-label>
+  </div>
+
+
+  <section class="fondoima">
+  </section>
+  <div class="cosas">
+  <ion-card>
+    
+      <ion-card-content>
+        <form [formGroup]="formularioRegistro">
+         
+            
+       <ion-input formControlName="nombre" placeholder="Ingrese usuario" value="Default value"></ion-input>
+          
+        </form>
+      </ion-card-content>
+  
+  </ion-card>
+  <ion-card>
+    
+    <ion-card-content>
+      <form [formGroup]="formularioRegistro">
+       
+          <ion-input formControlName="email" placeholder="Ingrese email" value="Default value"></ion-input>
+      
+      </form>
+    </ion-card-content>
+
+</ion-card>
+  <ion-card>
+    
+    <ion-card-content>
+      <form [formGroup]="formularioRegistro">
+
+          <ion-input formControlName="password" type="password" placeholder="Ingrese Contraseña" value="Default value"></ion-input>
+        
+      </form>
+    </ion-card-content>
+</ion-card>
+
+<ion-card>
+    
+  <ion-card-content>
+    <form [formGroup]="formularioRegistro">
+    
+        <ion-input formControlName="confirmacionPassword" type="password" placeholder="Confirme Contraseña" value="Default value"></ion-input>
+    </form>
+  </ion-card-content>
+</ion-card>
+</div>
+
+  <div class="ingresarbutton">
+    <ion-button expand="block" shape="round" (click)="registro()" >Registrarse</ion-button>
+  </div> 
+  
+  <div class="iniciarsesion">
+    <ion-label><br>¿Tengo cuenta?</ion-label> <br>
+    <ion-button shape="round" size="small" [routerLink]="['/login']">Iniciar sesion</ion-button >
+    
+  </div>
+
+</ion-content>
